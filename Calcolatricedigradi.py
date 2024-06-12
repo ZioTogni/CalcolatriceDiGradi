@@ -8,7 +8,7 @@ print("Sono qui per aiutarti a calcolare i gradi "+celsius_kelvin+" e "+kelvin_c
 print("\nPerfavore, scegli il servizio che vuoi!")
 servizio_richiesto=input()
 if servizio_richiesto==celsius_kelvin:
-    print("Perfetto, hai scelto il servizio"+servizio_richiesto+" ! ")
+    print("Perfetto, hai scelto il servizio "+servizio_richiesto+" ! ")
     x=input("Inserisci il numero da convertire in Kelvin!")
     s=input("Inserisci 273.15! (per convertire il tuo numero in Kelvin)")
     a=float(x)+float(s)
